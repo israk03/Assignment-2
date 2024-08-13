@@ -1,6 +1,8 @@
         /* FONT FAMILY */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
         /* GENERAL STYLE */
 *{
     margin: 0;
@@ -10,6 +12,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color:rgb(0, 0, 0);
 }
 
 
@@ -21,17 +24,22 @@ body {
     background-color: rgb(230, 83, 60);
 }
 
+.sub-color{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 
 
         /* NAVBAR */
-.header{
-
-}
+/* .header{
+    height: 715px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    border: 1px solid blue;
+} */
 
 .nav-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px;
 
 }
@@ -64,5 +72,149 @@ body {
     border-style: none;
     background-color: transparent;
     padding: 5px;
-    /* color: white; */
+    color: white;
 }
+
+.nav-hamburger{
+    display: none;
+}
+
+        /* MAIN SECTION */
+.main-content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+        /* BANNER SECTION */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner{
+    width: 40%;
+    position: relative;
+}
+
+.banner img {
+    margin-left: 50px;
+}
+
+.card{
+    color: black;
+    width: max-content;
+    padding: 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+
+
+.card1 h2{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.card2 h2{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.card1{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    text-align: center;
+
+}
+
+.card2{
+    position: absolute;
+    top: 70%;
+    right: 70%;
+    text-align: center;
+    
+}
+
+
+.banner-text h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.banner-btn{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.btn{
+    width: 180px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 16px 40px 16px 40px;
+    margin-top: 30px;
+    color: white;
+}
+
+#join-btn{
+    background-color: rgb(230, 83, 60);
+}
+
+        /* CHANGE HABIT SECTION */
+.change-habit{
+    border: 1px solid white;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+
+.title-text{
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.title-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.trainer{
+   display: flex;
+   align-items: center;
+}
+
+.trainer-info{
+    color: white;
+    text-align: center;
+}
+
+.trainer-info h2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.trainer-info p{
+    font-size: 14px;
+}
+
+
