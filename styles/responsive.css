@@ -57,4 +57,25 @@
         grid-template-columns: repeat(1, 1fr);
         height: auto;
     }
+
+    .footer{
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* text-align: start; */
+        padding: 10px;
+    }
+
+    .fitness-list{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .horizontal{
+        width: 400px;
+    }
+
+    .copyright{
+        margin-left: 150px;
+    }
 }
