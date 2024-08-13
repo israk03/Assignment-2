@@ -165,7 +165,6 @@ body {
 }
 
 .btn{
-    width: 180px;
     border: 1px solid gray;
     border-radius: 40px;
     background-color: transparent;
@@ -180,7 +179,6 @@ body {
 
         /* CHANGE HABIT SECTION */
 .change-habit{
-    border: 1px solid white;
     margin-top: 90px;
     margin-bottom: 90px;
     
@@ -217,4 +215,103 @@ body {
     font-size: 14px;
 }
 
+.circle{
+    border: 5px solid rgb(63, 63, 63);
+    border-radius: 50%;
+}
 
+        /* RUN SECTION */
+.run{
+    color: white;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 90px;
+}
+
+.run-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.run-childs{
+    width: 100%;
+}
+
+.run-childs img{
+    width: 80%;
+    border-radius: 20px;
+    margin: 50px;
+    /* margin-right: 20px; */
+    
+    
+}
+
+.run-text{
+    padding: 30px;
+}
+
+.run-text h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.run-text button{
+    color: white;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 15px 40px 15px 40px;
+    margin-top: 25px;
+}
+
+
+        /* OUR TEAM SECTION */
+.our-team{
+    color: white;
+    margin-bottom: 90px;
+}
+
+.team-title{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.team-title h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center; 
+    justify-items: center;
+    padding: 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 600px;
+}
+
+.member img{
+    width: 310px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.member{
+    position: relative;
+}
+
+.member h2{
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+}
+
+.member p{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: rgba(255, 255, 255, 0.5);
+}
