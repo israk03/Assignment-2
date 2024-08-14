@@ -38,8 +38,7 @@
     }
 
     .trainer{
-        flex-direction: column;
-        gap: 50px;
+        grid-template-columns: 1fr;
         
     }
 
@@ -60,8 +59,6 @@
 
     .footer{
         flex-direction: column;
-        /* align-items: flex-start; */
-        /* text-align: start; */
         padding: 10px;
     }
 
@@ -71,11 +68,19 @@
         
     }
 
-    .horizontal{
-        width: 400px;
+    .fitness-list h2{
+        margin-top: 40px;
     }
 
-    .copyright{
-        margin-left: 150px;
+
+    .horizontal{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .bmi-chart-calc{
+
+        grid-template-columns: 1fr;
+        padding: 20px 20px 20px 20px;
     }
 }

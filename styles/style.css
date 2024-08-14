@@ -40,6 +40,7 @@ body {
 .nav-title{
     font-weight: 800;
     color: rgb(230, 83, 60);
+    font-style: italic;
 }
 
 .nav-btns{
@@ -74,7 +75,7 @@ body {
 
 
                 /* -----> MAIN SECTION START <-----*/
-.main-content{
+.container{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -165,7 +166,7 @@ body {
     color: white;
 }
 
-#join-btn{
+.join-btn{
     background-color: rgb(230, 83, 60);
 }
 
@@ -191,8 +192,10 @@ body {
 }
 
 .trainer{
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
    align-items: center;
+   gap: 20px;
 }
 
 .trainer-info{
@@ -273,10 +276,12 @@ body {
 .bmi-title{
     text-align: center;
     margin-bottom: 90px;
+
 }
 .bmi-title h1{
     font-size: 30px;
     margin-bottom: 15px;
+    
 }
 
 .bmi{
@@ -284,18 +289,13 @@ body {
 }
 
 .bmi-chart-calc{
-    border: 2px solid white;
-    margin: 0 auto;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 50px;
 }
 .chart{
-    border: 1px solid red;
+
 }
 
 .chart table{
@@ -315,10 +315,26 @@ body {
 .chart td{
     color: rgba(255, 255, 255, 0.5);
 }
+
+.calc h2{
+    padding-bottom: 20px;
+}
+
+.calc p{
+    padding-bottom: 20px;
+}
 .calc form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: transparent;
+    gap: 15px;
+    
+}
+
+.calc input{
+    border-radius: 8px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
 }
 
 .calc form :last-child{
@@ -428,6 +444,12 @@ body {
     
 }
 
+.list-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .horizontal{
     border: 2px solid rgba(255, 255, 255, 0.1);
     height: 1px;
@@ -439,5 +461,6 @@ body {
 
 .copyright{
     color: rgba(255, 255, 255, 0.5);
-    margin-left: 600px;
+    text-align: center;
+    padding: 30px;
 }
