@@ -1,8 +1,13 @@
 @media screen and (max-width: 576px) {
+
+    .nav-title{
+        font-size: 20px;
+    }
     .nav-hamburger{
         display: block;
         color: white;
     }
+
     .nav-btns{
         display: none;
     }
@@ -17,13 +22,26 @@
         display: flex;
         flex-direction: column;
     }
+    
     .banner-text{
         text-align: start;
         margin-left: 15px;
     }
+
+    .banner-text h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .shape{
+        font-size: 100px;
+        padding-right: 10px;
+    }
+
     .banner-btn{
         display: flex;
         justify-content: center;
+        gap: 30px;
         
     }
 
@@ -55,6 +73,7 @@
     .team-members{
         grid-template-columns: repeat(1, 1fr);
         height: auto;
+        gap: 15px;
     }
 
     .footer{
