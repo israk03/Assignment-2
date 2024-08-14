@@ -1,28 +1,20 @@
-        /* FONT FAMILY */
+                /* -----> FONT AND OTHERS <-----*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-        /* GENERAL STYLE */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Inter", sans-serif;
     background-color:rgb(0, 0, 0);
 }
 
-
-
-        /* SHARED STYLE */
-#home-btn{
-    border-radius: 47px;
-    padding: 8px 20px 8px 20px;
-    background-color: rgb(230, 83, 60);
-}
 
 .sub-color{
     color: rgba(255, 255, 255, 0.5);
@@ -31,15 +23,9 @@ body {
 
 
 
-        /* NAVBAR */
-/* .header{
-    height: 715px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    border: 1px solid blue;
-} */
+                /* -----> NAVBAR SECTION START <-----*/
 
 .nav-container{
-    /* border: 2px solid red; */
     padding: 20px;
 
 }
@@ -75,17 +61,26 @@ body {
     color: white;
 }
 
+#home-btn{
+    border-radius: 47px;
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(230, 83, 60);
+}
+
 .nav-hamburger{
     display: none;
 }
 
-        /* MAIN SECTION */
+
+
+                /* -----> MAIN SECTION START <-----*/
 .main-content{
     max-width: 1000px;
     margin: 0 auto;
 }
 
-        /* BANNER SECTION */
+                /* -----> BANNER SECTION START <-----*/
+
 .banner-container{
     display: flex;
     justify-content: space-between;
@@ -112,7 +107,6 @@ body {
     background: rgba(255, 255, 255, 0.1);
     
 }
-
 
 .card1 h2{
     font-size: 24px;
@@ -142,7 +136,6 @@ body {
     
 }
 
-
 .banner-text h1{
     font-size: 60px;
     font-weight: 900;
@@ -150,11 +143,10 @@ body {
     color: white;
 }
 
-
 .shape {
     font-family: 'Miama', sans-serif;
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 140px;
+    font-weight: 800;
 }
 
 .banner-btn{
@@ -177,7 +169,10 @@ body {
     background-color: rgb(230, 83, 60);
 }
 
-        /* CHANGE HABIT SECTION */
+
+
+                /* -----> CHANGE YOUR HABIT SECTION START <-----*/
+
 .change-habit{
     margin-top: 90px;
     margin-bottom: 90px;
@@ -220,7 +215,10 @@ body {
     border-radius: 50%;
 }
 
-        /* RUN SECTION */
+
+
+
+                /* -----> RUN AN EXTRA MILE SECTION START <-----*/
 .run{
     color: white;
     border-radius: 18px;
@@ -266,7 +264,70 @@ body {
 }
 
 
-        /* OUR TEAM SECTION */
+
+                /* -----> BMI CALCULATOR SECTION START <-----*/
+.bmi-calc{
+    color: white;
+    margin-bottom: 90px;
+}
+.bmi-title{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.bmi-title h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.bmi{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bmi-chart-calc{
+    border: 2px solid white;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.chart{
+    border: 1px solid red;
+}
+
+.chart table{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+.chart th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+
+.chart td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.calc form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: transparent;
+}
+
+.calc form :last-child{
+    grid-column: span 2;
+}
+
+
+
+                /* -----> TEAM SECTION START <-----*/
 .our-team{
     color: white;
     margin-bottom: 90px;
@@ -277,6 +338,7 @@ body {
     margin-bottom: 60px;
 
 }
+
 .team-title h1{
     font-size: 30px;
     margin-bottom: 15px;
@@ -317,21 +379,21 @@ body {
 }
 
 
-        /* FOOTER SECTION */
+
+
+                /* -----> FOOTER SECTION START <-----*/
 
 .footer-wraper{
     background: rgba(255, 255, 255, 0.1);
 }
+
 .footer{
     max-width: 1000px;
     margin: 0 auto;
     height: auto;
-
-    margin-bottom: 100px;
     padding-top: 30px;
     padding-bottom: 50px;
     color: white;
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -340,6 +402,7 @@ body {
 .fitness-text{
     width: 50%;
 }
+
 .fitness-text h1{
     font-size: 50px;
     font-weight: 700;
@@ -365,8 +428,6 @@ body {
     
 }
 
-
-
 .horizontal{
     border: 2px solid rgba(255, 255, 255, 0.1);
     height: 1px;
@@ -378,6 +439,5 @@ body {
 
 .copyright{
     color: rgba(255, 255, 255, 0.5);
-    
     margin-left: 600px;
 }
